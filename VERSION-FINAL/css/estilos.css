@@ -1,0 +1,136 @@
+.fuente {
+    color: #FFFFFF !important;
+    font-family: arial !important; 
+}
+ 
+/* cambiar el color de fondo a la barra */
+.navbar ,.navbar-inverse {
+	background: rgb(0,0,0) !important; 
+	z-index: 2100 !important;
+}
+
+.imgSpurs{
+	width: 4.5%;
+	border-radius: 47%;
+}
+.imgArg{
+	width: 3.5%;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:35%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:3px solid #333; 
+}
+
+@media screen and (max-width: 600px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+.pagina {
+background: #000 !important; 
+color: #fff !important; 
+font-family: verdana !important;
+}
+
+
+.pagina:hover{
+background: #fff !important; 
+color: #000 !important; 
+font-family: verdana !important;
+}	
+
+.dos{
+	border: 1.5px solid #fff !important;
+}
+
+.fondo{
+	background: #fff;
+	border-radius: 2%;
+	display: block;
+
+}
+
+body{
+	background: rgba(0,0,0,0.75) !important;
+}
+
+.Biografia{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+ .formaiz{
+ max-width: 20%;
+ shape-image-threshold: 0.5;
+ shape-margin: 20px;
+ float: left;
+ border-radius: 5%;
+ margin: 5px;
+ }
+ .formaiz40{
+ max-width: 40%;
+ shape-image-threshold: 0.5;
+ shape-margin: 20px;
+ float: left;
+ border-radius: 5%;
+ margin: 5px;
+ }
+  .formader{
+ max-width: 30%;
+ shape-image-threshold: 0.5;
+ shape-margin: 20px;
+ float: right;
+ border-radius: 5%;
+ margin: 5px;
+ }
+  .formader50{
+ max-width: 50%;
+ shape-image-threshold: 0.5;
+ shape-margin: 20px;
+ float: right;
+ border-radius: 5%;
+ margin: 5px;
+ }
+
+.bg {
+	height: 45px;
+	width: 100%;
+	color: #3F729B;
+	background: #1C2331;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.skipnav { 
+	text-align: left; 
+	z-index: 3000;}
+  .skipnav a { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  .skipnav a:focus, .skipnav a:active { position: static; left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; }

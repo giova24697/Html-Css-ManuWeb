@@ -1,0 +1,148 @@
+.fuente {
+    color: #FFFFFF !important;
+    font-family: arial !important; 
+}
+ 
+/* cambiar el color de fondo a la barra */
+.navbar ,.navbar-inverse {
+	background: rgb(0,0,0) !important; 
+	z-index: 2100 !important;
+}
+
+.imgSpurs{
+	width: 4.5%;
+	border-radius: 47%;
+}
+.imgArg{
+	width: 3.5%;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:35%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:3px solid #333; 
+}
+
+@media screen and (max-width: 600px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+.pagina {
+background: #000 !important; 
+color: #fff !important; 
+font-family: verdana !important;
+}
+
+
+.pagina:hover{
+background: #fff !important; 
+color: #000 !important; 
+font-family: verdana !important;
+}	
+
+.dos{
+	border: 1.5px solid #fff !important;
+}
+
+.fondo{
+	background: #fff;
+	border-radius: 2%;
+	display: block;
+
+}
+
+.prueba{
+	background:rgba(0,0,0,0.75) ;
+}
+
+.tick{
+	
+	
+	background:rgba(255,255,255,0);
+}
+
+.img{
+	margin-left: 45%;
+	margin-top: 10% ;
+	height: 100px;
+	width: 110px;
+}
+
+.formularioExitoso{
+	color:#78788c;
+	background:rgba(255,255,255,0.9);
+	font-size: 54px;
+	text-align: center;
+	vertical-align:middle;
+	position: absolute;
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width:700px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-350px;
+	/*determinamos una altura*/
+	height:170px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:50;
+	border:1px solid #808080;
+	padding:5px;
+
+
+
+
+}
+
+
+
+
+.bg {
+	height: 30px;
+	width: 100%;
+	color: #3F729B;
+	background: #1C2331;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
